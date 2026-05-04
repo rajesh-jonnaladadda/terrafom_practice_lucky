@@ -14,3 +14,7 @@ terraform.rc
 
 # Optional: lock file (you can keep it if you want reproducibility)
 # .terraform.lock.hcl
+
+# Terraform files to ignore
+.terraform/
+.terraform.lock.hcl
